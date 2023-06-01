@@ -1,0 +1,104 @@
+<style>
+  .subscribe-button{
+    background-color: rgb(200, 0, 0);
+    
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius:2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+    /* good transition speed above */
+    
+  
+  }
+
+
+
+  .subscribe-button:hover{
+  opacity: 0.8;
+/* opacity property tells us how  much see through our html elements are  */
+/* opacity range - 0 to 1  */
+/* 1 is visible ; 0 is opaque  */
+  }
+
+  /* all the styles will take place when we hover over them */
+  /* if we are not hovering over all of these styles are as it is defined in the .class file in css */
+
+  /* if we are hovering over this it changes the styles accoirding to the hover
+  it ads extra styles in a certain situation   */
+
+  /* these classes are known as pseudo classes  */
+
+  .subscribe-button:active{
+    opacity: 0.4;;
+    
+  }
+  /* when we click on the button the active class gets into action  */
+  .join-button{
+    background-color:white;
+    border-color: rgb(12, 142, 208);
+    border-style: solid;
+    
+    border-width: 1px;
+    color: rgb(12, 142, 208);
+    height: 36px;
+    width: 62px;
+    border-radius: 2px;
+    cursor: pointer;
+    
+  
+  
+  
+  }
+
+  .join-button:hover{
+    background-color: rgb(12, 142, 208);
+    color:white;
+
+  } 
+
+  .join-button:active{
+    opacity: 0.7;
+
+  }
+
+  
+  .tweet-button{
+    background-color: rgb(7, 147, 206);
+    color: white;
+    border: none;
+    height:36px;
+    width: 75px;
+    border-radius:18px ;
+   
+    font-weight: bold;
+   
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+   
+  
+  
+  }
+  </style>
+  
+  
+  <button class="subscribe-button">
+    SUBSCRIBE
+  </button>
+  
+  <button class="join-button">
+    JOIN
+  </button>
+  
+  
+  <button class="tweet-button">
+    Tweet
+  </button>
+  
+  <!-- General Technique: -->
+  <!-- 1] create the element with HTML 
+  2] style the CSS one by one  -->
